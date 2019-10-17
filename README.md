@@ -1,6 +1,6 @@
 # Get Movie - API
 Let's search your favorite movie!
-https://pablogomezlhp.github.io/2CodeProject/index.html
+https://pablogomezlhp.github.io/API_project/
 
 This API site was set up for The Code Institute as my second milestone project (Interactive FrontEnd Development Milestone Project), which focuses on interactivity with Javascript (DOM) and jQuery, plus HTML5, CSS and Bootstrap 4. Enjoy!
 ## UX
