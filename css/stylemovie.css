@@ -1,0 +1,144 @@
+body{
+  background-color: black;
+  background-image:url('../img/fundo.jpg');
+  background-size:cover;
+  background-attachment: fixed;
+  font: normal 15pt Arial;
+  color:white;
+  font-family: 'Aleo', serif;
+}
+header{
+  color:white;
+  text-align: center;
+}
+section{
+
+  background-color: black;
+  border-radius: 10px;
+  width: 100%;
+  color:white;
+}
+.btn{
+  margin-right: 500px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: darkred;
+    border: 1px solid rgba(0,0,0,.125);
+    color: white;
+    margin-bottom: 1px;
+    text-align: left;
+}
+#overview{
+  margin-top: 5%;
+  text-decoration-style: double;
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 20px;
+}
+.fab{
+  color:yellow;
+}
+.fab:hover{
+  color:darkred;
+}
+#imdb{
+margin-right:800px;
+}
+#visitS{
+  margin-top: 15px;
+  color:white;
+}
+#movie{
+  width: 100%;
+}
+.container-fluid{
+  width: 100%;
+}
+#go2{
+  text-align: right;
+}
+a{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+a:hover{
+  color: #FFF8DC;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,p {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
+}
+h3{
+  font-weight: bold;
+}
+.well{
+  color:white:
+}
+div{
+  text-align: center;
+  padding: 10px;
+}
+#movies img, #movie img{
+  width: 100%;
+}
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+  #movies .col-md-3 img{
+    height: 240px;
+  }
+  .fab{
+    color:yellow;
+    margin: auto;
+  }
+}
+@media(max-width: 479px){
+  #imdb{
+  margin-right:auto;
+  }
+  #movie{
+    width: 100%;
+  }
+  div{
+    text-align: center;
+    padding:1px;
+  }
+  #overview{
+    margin-top: 5%;
+    text-decoration-style: double;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 15px;
+  }
+  #imdb{
+  margin-top: 10%;
+  }
+  #go2{
+    margin-top: 10%;
+    margin-bottom: 9%;
+  }
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  body{
+    background-image:url('../img/ipad.jpg');
+    background-size: cover;
+  }
+  section{
+  width: 100%;
+  padding: 0;
+  margin: auto;
+}
+  row{
+  width: 100%;
+}
+}

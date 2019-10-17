@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Get a Movie</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+      <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Aleo|Roboto&display=swap" rel="stylesheet">
+      <script src="js/apiData.js"></script>
+   </head>
+   <body onload="loadLastInput()">
+      <header>
+      </header>
+      <nav class="navbar navbar-default">
+         <div class="container">
+            <div class="navbar-header"></div>
+         </div>
+      </nav>
+      <div class="container">
+         <div class="jumbotron">
+            <h3 class="text-center" id="titleS">Search For Any Movie</h3>
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-12">
+                     <input type="text"  id="searchText" placeholder="Search Movie....">
+                     <button type="button" class="buttonG"id="searchForm"name="button"><i id="icon"class="fa fa-search fa-2x"></i></button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <div class="container">
+         <div id="movies" class="row"></div>
+      </div>
+   </body>
+</html>

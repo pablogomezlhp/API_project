@@ -1,0 +1,158 @@
+body {
+  background-color: black;
+  background-image: url('../img/fundo.jpg');
+  background-size: cover;
+  font: normal 15pt Arial;
+  color: white;
+  font-family: 'Aleo', serif;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: inherit;
+  margin-top: 10%;
+}
+
+#titleS {
+  margin: -10%;
+  margin-bottom: 40px;
+  color: darkgrey;
+}
+
+#searchText {
+  align-items: center;
+  margin: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size: 25px;
+}
+
+.buttonG {
+  width: 50px;
+  height: auto;
+  background-color: darkred;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  vertical-align: top;
+  border-radius: 10px;
+}
+
+#icon {
+  width: 100%;
+  background-color: darkred;
+}
+
+#buttonG {
+  margin-top: 4.9%;
+  width: 50px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 0;
+  border: 10px, solid;
+  border-color: white;
+  color: white;
+  border-radius: 10px;
+}
+
+section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+  color: black;
+}
+
+div {
+  text-align: center;
+  padding: 10px;
+}
+
+.col-md-3 {
+  background-color: black;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+  border: 2px solid black;
+}
+
+#imP {
+  width: 200px;
+  height: auto;
+  border: 0px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h5 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-stretch: extra-condensed;
+}
+
+#buttonIndex {
+  background-color: darkred;
+  border: 1px solid black;
+}
+
+#buttonIndex:hover {
+  background: darkgrey;
+  color: darkred;
+  box-shadow: inset white border:1px solid black;
+}
+
+@media(min-width:960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
+
+@media(max-width: 479px) {
+  body {
+    background-image: url('../img/cel.jpg');
+    background-size: cover;
+  }
+  img {
+    width: 100%;
+  }
+  .movies {
+    width: 100%;
+  }
+  #imdb {
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body {
+    background-image: url('../img/ipad.jpg');
+    background-size: cover;
+  }
+  img {
+    width: 100px;
+    height: 160px;
+  }
+  .row{
+    width: 100%;
+    height: auto;
+  }
+}
