@@ -18,11 +18,18 @@ As a user of this site, I would like to see details regarding the release year, 
 
 Desktop & Ipad
 
+<img width="601" alt="Screenshot 2019-10-17 at 20 37 59" src="https://user-images.githubusercontent.com/51464234/67041895-8ee20200-f11e-11e9-93c6-3bb5466b231b.png">
+
+
+<img width="601" alt="Screenshot 2019-10-17 at 20 38 12" src="https://user-images.githubusercontent.com/51464234/67041920-9b665a80-f11e-11e9-88ea-d8bc98ad9f31.png">
+
 
 
 
 
 Mobile
+
+<img width="490" alt="Screenshot 2019-10-17 at 20 38 28" src="https://user-images.githubusercontent.com/51464234/67041933-a3be9580-f11e-11e9-86f0-f01d6ebf2b7a.png">
   
 
 Features
